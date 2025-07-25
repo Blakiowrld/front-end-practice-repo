@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Projects – Judah</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* Simple Grid Styling */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    article.project {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1rem;
+      background-color: #f9f9f9;
+    }
+
+    article.project img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .badges span {
+      background-color: #007bff;
+      color: #fff;
+      padding: 3px 8px;
+      margin: 3px;
+      display: inline-block;
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+
+    .view-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .view-btn:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Projects</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="blog/post1.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="projects-grid">
+
+      <!-- Project 1 -->
+      <article class="project">
+        <img src="../portfolio-html/assets/images/Screenshot 2025-07-25 134717.png" alt="Screenshot of Portfolio Website" />
+        <h3>Personal Portfolio Website</h3>
+        <p>A responsive portfolio website to showcase my skills, bio, and contact form.</p>
+        <div class="badges">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+        <a class="view-btn" href="https://www.canva.com/design/DAGG4LVC1-Q/nlYVSGtMagDijvec589f-Q/view?utm_content=DAGG4LVC1-Q&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3d58844e3e#5" target="_blank">View Project</a>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project">
+        <img src="../portfolio-html/assets/images/Screenshot 2025-07-25 140425.png" alt="Screenshot of Weather App" />
+        <h3>Weather App</h3>
+        <p>An app that fetches real-time weather data for any city using an API.</p>
+        <div class="badges">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>API</span>
+        </div>
+        <a class="view-btn" href="https://www.yr.no/en/forecast/hourly-table/2-2332459/Nigeria/Lagos/Lagos?i=0" target="_blank">View Project</a>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project">
+        <img src="../portfolio-html/assets/images/TODOLIST.png" alt="Screenshot of To-Do List App" />
+        <h3>To-Do List App</h3>
+        <p>A simple and interactive to-do list for task management with local storage.</p>
+        <div class="badges">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+        <a class="view-btn" href="../portfolio-html/projects.html" target="_blank">View Project</a>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Judah. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
